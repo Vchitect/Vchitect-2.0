@@ -1,0 +1,12 @@
+diffusers
+accelerate
+transformers
+gradio
+torch
+torchvision
+torchdiffeq
+click
+einops
+moviepy
+sentencepiece
+Pillow==9.5.0
