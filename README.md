@@ -1,4 +1,4 @@
-# Vchitect-XL: Parallel Transformer for Text-to-Video Diffusion Models
+# Vchitect-2.0: Parallel Transformer for Text-to-Video Diffusion Models
 
 <!-- <p align="center" width="100%">
 <img src="ISEKAI_overview.png"  width="80%" height="80%">
@@ -19,8 +19,45 @@
 ![](https://img.shields.io/github/stars/Vchitect/Vchitect-2.0)
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FVchitect%2FVchitect-2.0&count_bg=%23BDC4B7&title_bg=%2342C4A8&icon=octopusdeploy.svg&icon_color=%23E7E7E7&title=visitors&edge_flat=true)](https://hits.seeyoufarm.com)
 [![Generic badge](https://img.shields.io/badge/DEMO-VchitectXL_Demo-<COLOR>.svg)](https://huggingface.co/spaces/Vchitect/Vchitect-2.0)
+[![Generic badge](https://img.shields.io/badge/Checkpoint-red.svg)](https://huggingface.co/Vchitect/Vchitect-XL-2B)
 
 **:fire:The technical report is coming soon!**
+
+## 🔥 Update and News
+- [2024.09.14] 🔥 Inference code and [checkpoint](https://huggingface.co/Vchitect/Vchitect-XL-2B) are released.
+
+## :astonished: Gallery
+
+<table class="center">
+
+<tr>
+
+  <td><video src="assets/samples/sample_0_seed3.mp4" width="100%" controls autoplay></video></td>
+  <td><video src="assets/samples/sample_1_seed3.mp4" width="100%" controls autoplay></video></td>
+  <td><video src="assets/samples/sample_3_seed2.mp4" width="100%" controls autoplay></video></td> 
+</tr>
+
+
+        
+<tr>
+  <td><video src="assets/samples/sample_4_seed1.mp4" width="100%" controls autoplay></video></td>
+  <td><video src="assets/samples/sample_4_seed4.mp4" width="100%" controls autoplay></video></td>
+  <td><video src="assets/samples/sample_5_seed4.mp4" width="100%" controls autoplay></video></td>     
+</tr>
+
+<tr>
+  <td><video src="assets/samples/sample_6_seed4.mp4" width="100%" controls autoplay></video></td>
+  <td><video src="assets/samples/sample_8_seed0.mp4" width="100%" controls autoplay></video></td>
+  <td><video src="assets/samples/sample_8_seed2.mp4" width="100%" controls autoplay></video></td>      
+</tr>
+
+<tr>
+  <td><video src="assets/samples/sample_12_seed1.mp4" width="100%" controls autoplay></video></td>
+  <td><video src="assets/samples/sample_13_seed3.mp4" width="100%" controls autoplay></video></td>
+  <td><video src="assets/samples/sample_14.mp4" width="100%" controls autoplay></video></td>    
+</tr>
+
+</table>
 
 ## Installation
 
@@ -40,28 +77,9 @@ Note: You may want to adjust the CUDA version [according to your driver version]
   pip install -r requirements.txt
   ```
 
-### 3. Install ``flash-attn``
-
-  ```bash
-  pip install flash-attn --no-build-isolation
-  ```
-
-### 4. Install [nvidia apex](https://github.com/nvidia/apex)
-
-```bash
-pip install ninja
-git clone https://github.com/NVIDIA/apex
-cd apex
-# if pip >= 23.1 (ref: https://pip.pypa.io/en/stable/news/#v23-1) which supports multiple `--config-settings` with the same key...
-pip install -v --disable-pip-version-check --no-cache-dir --no-build-isolation --config-settings "--build-option=--cpp_ext" --config-settings "--build-option=--cuda_ext" ./
-# otherwise
-pip install -v --disable-pip-version-check --no-cache-dir --no-build-isolation --global-option="--cpp_ext" --global-option="--cuda_ext" ./
-```
-
 ## Inference
-
+**First download the [checkpoint](https://huggingface.co/Vchitect/Vchitect-XL-2B).**
 ~~~bash
-#easy infer
 test_file=$1
 save_dir=$2
 ckpt_path=$3
@@ -69,3 +87,7 @@ ckpt_path=$3
 python inference.py --test_file "${test_file}" --save_dir "${save_dir}" --ckpt_path "${ckpt_path}"
 
 ~~~
+
+## 🔑 License
+
+This code is licensed under Apache-2.0. The framework is fully open for academic research and also allows free commercial usage.
