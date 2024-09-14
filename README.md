@@ -13,6 +13,7 @@
     <sup>1</sup>Shanghai Artificial Intelligence Laboratory&emsp;
 </div>
  
+ 
  -----------------
 
 ![](https://img.shields.io/badge/VchitectXL-v0.1-darkcyan)
@@ -21,6 +22,14 @@
 [![Generic badge](https://img.shields.io/badge/DEMO-VchitectXL_Demo-<COLOR>.svg)](https://huggingface.co/spaces/Vchitect/Vchitect-2.0)
 [![Generic badge](https://img.shields.io/badge/Checkpoint-red.svg)](https://huggingface.co/Vchitect/Vchitect-XL-2B)
 
+---
+
+</p>
+<p align="center">
+    👋 Join our <a href="https://github.com/Vchitect/Vchitect-2.0/tree/master/assets/channel/lark.jpeg" target="_blank">Lark</a> and <a href="https://discord.gg/aJAbn9sN" target="_blank">Discord</a> 
+</p>
+
+---
 **:fire:The technical report is coming soon!**
 
 ## 🔥 Update and News
