@@ -99,9 +99,9 @@ def infer(prompt: str, num_inference_steps: int, guidance_scale: float, progress
             negative_prompt="",
             num_inference_steps=num_inference_steps,
             guidance_scale=guidance_scale,
-            width=432,
-            height=240, #480x288  624x352 432x240 768x432
-            frames=16
+            width=624,
+            height=452, #480x288  624x352 432x240 768x432
+            frames=32
         )
     
     return video
