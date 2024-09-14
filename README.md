@@ -6,12 +6,12 @@
 
 <div>
 <div align="center">
-    <a href='https://vchitect.intern-ai.org.cn/' target='_blank'>Vchitect Team</a>&emsp;
+    <a href='https://vchitect.intern-ai.org.cn/' target='_blank'>Vchitect Team<sup>1</sup></a>&emsp;
 </div>
 <div>
-<!-- <div align="center">
+<div align="center">
     <sup>1</sup>Shanghai Artificial Intelligence Laboratory&emsp;
-</div> -->
+</div>
  
  
 </p>
