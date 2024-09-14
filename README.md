@@ -1,4 +1,4 @@
-# Vchitect-2.0: Parallel Transformer for Text-to-Video Diffusion Models
+# Vchitect-2.0: Parallel Transformer for Scaling Up Video Diffusion Models
 
 <!-- <p align="center" width="100%">
 <img src="ISEKAI_overview.png"  width="80%" height="80%">
@@ -6,7 +6,7 @@
 
 <div>
 <div align="center">
-    <a href='https://vchitect.intern-ai.org.cn/' target='_blank'>Vchitect-2.0 Team<sup>1</sup></a>&emsp;
+    <a href='https://vchitect.intern-ai.org.cn/' target='_blank'>Vchitect Team<sup>1</sup></a>&emsp;
 </div>
 <div>
 <div align="center">
@@ -21,7 +21,7 @@
 
 ---
 
-![](https://img.shields.io/badge/VchitectXL-v0.1-darkcyan)
+![](https://img.shields.io/badge/Vchitect2.0-v0.1-darkcyan)
 ![](https://img.shields.io/github/stars/Vchitect/Vchitect-2.0)
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FVchitect%2FVchitect-2.0&count_bg=%23BDC4B7&title_bg=%2342C4A8&icon=octopusdeploy.svg&icon_color=%23E7E7E7&title=visitors&edge_flat=true)](https://hits.seeyoufarm.com)
 [![Generic badge](https://img.shields.io/badge/DEMO-VchitectXL_Demo-<COLOR>.svg)](https://huggingface.co/spaces/Vchitect/Vchitect-2.0)
