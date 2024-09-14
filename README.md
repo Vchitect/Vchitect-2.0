@@ -6,12 +6,11 @@
 
 <div>
 <div align="center">
-    <a href='https://vchitect.intern-ai.org.cn/' target='_blank'>Vchitect-2.0 Team<sup>1,2</sup></a>&emsp;
+    <a href='https://vchitect.intern-ai.org.cn/' target='_blank'>Vchitect-2.0 Team<sup>1</sup></a>&emsp;
 </div>
 <div>
 <div align="center">
-    <sup>1</sup>S-Lab, Nanyang Technological University&emsp;
-    <sup>2</sup>Shanghai Artificial Intelligence Laboratory&emsp;
+    <sup>1</sup>Shanghai Artificial Intelligence Laboratory&emsp;
 </div>
  
  -----------------
