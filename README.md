@@ -19,7 +19,7 @@
 ![](https://img.shields.io/badge/VchitectXL-v0.1-darkcyan)
 ![](https://img.shields.io/github/stars/Vchitect/Vchitect-2.0)
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FVchitect%2FVchitect-2.0&count_bg=%23BDC4B7&title_bg=%2342C4A8&icon=octopusdeploy.svg&icon_color=%23E7E7E7&title=visitors&edge_flat=true)](https://hits.seeyoufarm.com)
-[![Generic badge](https://img.shields.io/badge/DEMO-LCL_Demo-<COLOR>.svg)](https://huggingface.co/spaces/Vchitect/Vchitect-2.0)
+[![Generic badge](https://img.shields.io/badge/DEMO-VchitectXL_Demo-<COLOR>.svg)](https://huggingface.co/spaces/Vchitect/Vchitect-2.0)
 
 
 
