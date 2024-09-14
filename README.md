@@ -32,29 +32,29 @@
 
 <tr>
 
-  <td><video src="assets/samples/sample_0_seed3.mp4" width="100%" controls autoplay></video></td>
-  <td><video src="assets/samples/sample_1_seed3.mp4" width="100%" controls autoplay></video></td>
-  <td><video src="assets/samples/sample_3_seed2.mp4" width="100%" controls autoplay></video></td> 
+  <td><img src="assets/samples/sample_0_seed3.gif"> </td>
+  <td><img src="assets/samples/sample_1_seed3.gif"> </td>
+  <td><img src="assets/samples/sample_3_seed2.gif"> </td> 
 </tr>
 
 
         
 <tr>
-  <td><video src="assets/samples/sample_4_seed1.mp4" width="100%" controls autoplay></video></td>
-  <td><video src="assets/samples/sample_4_seed4.mp4" width="100%" controls autoplay></video></td>
-  <td><video src="assets/samples/sample_5_seed4.mp4" width="100%" controls autoplay></video></td>     
+  <td><img src="assets/samples/sample_4_seed1.gif"> </td>
+  <td><img src="assets/samples/sample_4_seed4.gif"> </td>
+  <td><img src="assets/samples/sample_5_seed4.gif"> </td>     
 </tr>
 
 <tr>
-  <td><video src="assets/samples/sample_6_seed4.mp4" width="100%" controls autoplay></video></td>
-  <td><video src="assets/samples/sample_8_seed0.mp4" width="100%" controls autoplay></video></td>
-  <td><video src="assets/samples/sample_8_seed2.mp4" width="100%" controls autoplay></video></td>      
+  <td><img src="assets/samples/sample_6_seed4.gif"> </td>
+  <td><img src="assets/samples/sample_8_seed0.gif"> </td>
+  <td><img src="assets/samples/sample_8_seed2.gif"> </td>      
 </tr>
 
 <tr>
-  <td><video src="assets/samples/sample_12_seed1.mp4" width="100%" controls autoplay></video></td>
-  <td><video src="assets/samples/sample_13_seed3.mp4" width="100%" controls autoplay></video></td>
-  <td><video src="assets/samples/sample_14.mp4" width="100%" controls autoplay></video></td>    
+  <td><img src="assets/samples/sample_12_seed1.gif"> </td>
+  <td><img src="assets/samples/sample_13_seed3.gif"> </td>
+  <td><img src="assets/samples/sample_14.gif"> </td>    
 </tr>
 
 </table>
