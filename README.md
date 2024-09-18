@@ -99,7 +99,28 @@ python inference.py --test_file assets/test.txt --save_dir "${save_dir}" --ckpt_
 
 In inference.py, arguments for inference:
   - **num_inference_steps**: Denoising steps, default is 100
-  - **guidance_scale**: CFG scale to use. The default is 7.5
+  - **guidance_scale**: CFG scale to use, default is 7.5
+
+
+
+<table class="center">
+
+<tr>
+
+  <td><img src="assets/samples/sample_0_seed2.gif"> </td>
+  <td><img src="assets/samples/sample_31_seed0.gif"> </td>
+  <td><img src="assets/samples/sample_33_seed2.gif"> </td> 
+</tr>
+
+<tr>
+  <td>There is a painting depicting a turtle swimming in ocean.</td>
+  <td>A snowy forest landscape with a dirt road running through it. The road is flanked by trees covered in snow, and the ground is also covered in snow. The sun is shining, creating a bright and serene atmosphere. The road appears to be empty, and there are no people or animals visible in the video. The style of the video is a natural landscape shot, with a focus on the beauty of the snowy forest and the peacefulness of the road.</td>
+  <td>The video opens with a breathtaking view of a starry sky and vibrant auroras. The camera pans to reveal a glowing black hole surrounded by swirling, luminescent gas and dust. Below, an enchanted forest of bioluminescent trees glows softly. The scene is a mesmerizing blend of cosmic wonder and magical landscape.</td>      
+</tr>
+</table>
+
+
+
 
 The base T2V model supports generating videos with resolutions up to 720x480 and 8fps. Then，[VEnhancer](https://github.com/Vchitect/VEnhancer) is used to upscale the resolution to 2K and interpolate the frame rate to 24fps.
 
