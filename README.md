@@ -100,8 +100,11 @@ python inference.py --test_file assets/test.txt --save_dir "${save_dir}" --ckpt_
 In inference.py, arguments for inference:
   - **num_inference_steps**: Denoising steps, default is 100
   - **guidance_scale**: CFG scale to use, default is 7.5
+  - **width**: The width of the output video, default is 768
+  - **height**: The height of the output video, default is 432
+  - **frames**: The number of frames, default is 40
 
-
+The results below were generated using the example prompt.
 
 <table class="center">
 
