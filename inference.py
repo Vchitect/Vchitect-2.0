@@ -24,7 +24,7 @@ def infer(args):
                     video = pipe(
                         prompt,
                         negative_prompt="",
-                        num_inference_steps=50,
+                        num_inference_steps=100,
                         guidance_scale=7.5,
                         width=768,
                         height=432, #480x288  624x352 432x240 768x432
