@@ -98,8 +98,8 @@ python inference.py --test_file assets/test.txt --save_dir "${save_dir}" --ckpt_
 ~~~
 
 In inference.py, arguments for inference:
-  - num_inference_steps: Denoising steps, default is 100
-  - guidance_scale: CFG scale to use. The default is 7.5
+  - **num_inference_steps**: Denoising steps, default is 100
+  - **guidance_scale**: CFG scale to use. The default is 7.5
 
 The base T2V model supports generating videos with resolutions up to 720x480 and 8fps. Then，[VEnhancer](https://github.com/Vchitect/VEnhancer) is used to upscale the resolution to 2K and interpolate the frame rate to 24fps.
 
